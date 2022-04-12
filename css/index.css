@@ -1,0 +1,261 @@
+  /* css样式初始化 */
+  * {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html {
+    font-size: 60.5%;
+} 
+/* header样式初始化*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #3F3D56;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    color: white;
+    padding: 0 1rem;
+}
+
+/* 导航样式 */
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    font-weight: bold;
+    width: 128px;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li a {
+    width: 128px;
+    line-height: 45px;
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #3170e6;
+}
+
+/* 二级菜单样式 */
+.navbar ul li ul {
+    position: absolute;
+    display: none;
+    width: 128px;
+    line-height: 45px;
+}
+
+.navbar ul li ul li {
+    background-color: #3F3D56;
+}
+
+/* 悬浮展开二级菜单 */
+.navbar ul li ul li a:hover {
+    color:  #dee2eb;
+}
+
+.navbar ul li ul li:hover {
+    background-color: #3170e6;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+/* 轮播图 */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 六个图片 */
+.flex-container {
+   /* display: -webkit-flex; */
+   width: 100%;
+   height: 640px;
+   background-color: beige;
+   /* margin-left: 40px; */
+   margin: 0 auto;
+   background-color: #000;
+  
+}
+.flex-item1 {  
+   width: 346px;
+   height: 296px;
+   margin: 0 auto;
+   margin-top: 20px;
+    background: url(../images/youyang.jpg) no-repeat center ; 
+    background-size: cover;
+    border: 1px solid green;
+}
+.flex-item1:hover {
+    background: url(../images/youyang1.jpg) no-repeat center ; 
+    background-size: cover;
+    border: 1px solid #000;
+}
+.flex-item2 {  
+    width: 346px;
+    height: 296px;
+    margin: 0 auto;
+    margin-top: 20px;
+     background: url(../images/liliang.jpg) no-repeat center ; 
+     background-size: cover;
+     border: 1px solid green;
+ }
+ .flex-item2:hover {
+     background: url(../images/liliang1.jpg) no-repeat center ; 
+     background-size: cover; 
+     border: 1px solid #000;
+ }
+ .flex-item3 {  
+    width: 346px;
+    height: 296px;
+    margin: 0 auto;
+    margin-top: 20px;
+     background: url(../images/tuancao.jpg) no-repeat center ; 
+     background-size: cover;
+     border: 1px solid green;
+ }
+ .flex-item3:hover {
+     background: url(../images/tuancao1.jpg) no-repeat center ; 
+     background-size: cover; 
+     border: 1px solid #000;
+ }
+ .flex-item4 {  
+    width: 346px;
+    height: 296px;
+    margin: 0 auto;
+    margin-top: 20px;
+     background: url(../images/danche.jpg) no-repeat center ; 
+     background-size: cover;
+     border: 1px solid green;
+ }
+ .flex-item4:hover {
+     background: url(../images/dance1.jpg) no-repeat center ; 
+     background-size: cover; 
+     border: 1px solid #000;
+ }
+ .flex-item5 {  
+    width: 346px;
+    height: 296px;
+    margin: 0 auto;
+    margin-top: 20px;
+     background: url(../images/youyong.jpg) no-repeat center ; 
+     background-size: cover;
+     border: 1px solid green;
+ }
+ .flex-item5:hover {
+     background: url(../images/youyong1.jpg) no-repeat center ; 
+     background-size: cover; 
+     border: 1px solid #000;
+ }
+ .flex-item6 {  
+    width: 346px;
+    height: 296px;
+    margin: 0 auto;
+    margin-top: 20px;
+     background: url(../images/quanji.jpg) no-repeat center ; 
+     background-size: cover;
+     border: 1px solid green;
+ }
+ .flex-item6:hover {
+     background: url(../images/quanji1.jpg) no-repeat center ; 
+     background-size: cover; 
+     border: 1px solid #000;
+ }
+
+ /* 健身教练 */
+ .ijltit {
+    font-size: 20px;
+    padding-left: 90px;
+    height: 45px;
+    line-height: 45px;
+    background: url(../images/jianshenglogo.png) left 50px center no-repeat;
+}
+ .jianshen{
+        width: 100%;
+        height: 50%;
+      
+ }
+/* 网站内容*/
+.content {
+    margin-top: 50px;
+}
+
+
+/* 回到顶部 */
+.dingbu {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+     position:fixed; /* 根据浏览器窗口定位 */
+    right: 25px; 
+    bottom: 20%;
+    background-color: rgb(40, 193, 204);
+    z-index: 3;
+    color: #fff;
+    border-radius: 15px;
+    opacity: 0; /* 0为隐藏*/
+    }
