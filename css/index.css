@@ -243,70 +243,7 @@ body {
     margin-top: 50px;
 }
 
-/* 底部模块 */
-.ends {
-    width: 100%;
-    background: #333942;
-    margin-top: 20px;
-}
-.ends2 {
-    width: 1200px;
-    height: 250px;
-    margin: 0 auto;
-    padding-top: 35px;
-    padding-bottom: 30px;
-}
-.enlx {
-    float: left;
-    width: 240px;
-    font-size: 12px;
-}
-.enlx .comname {
-    font-size: 15px;
-    color: #fff;
-}
-.enlx .comlx {
-    margin-top: 15px;
-    color: #717A86;
-    line-height: 27px;
-}
-.endh {
-    float: left;
-    margin-left: 10px;
-}
-.enlogo {
-    float: right;
-    padding-top: 30px;
-}
-.enwx {
-    float: right;
-    margin-right: 20px;
-}
-.enf1 {
-    float: left;
-    width: 110px;
-    text-align: center;
-}
-.entit {
-    font-size: 15px;
-    color: #fff;
-    margin-bottom: 15px;
-}
-.enli a {
-    color: #717A86;
-    font-size: 12px;
-    margin: 0 auto;
-    line-height: 23px;
-}
-.enwx .wxwz {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 10px;
-}
-.enwx .wxtu img {
-    width: 142px;
-    height: 142px;
-}
+
 /* 回到顶部 */
 .dingbu {
     width: 50px;
