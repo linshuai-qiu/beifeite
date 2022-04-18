@@ -1,0 +1,158 @@
+/* css样式初始化 */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 60.5%;
+}
+
+/* header样式初始化*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #3F3D56;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    color: white;
+    padding: 0 1rem;
+}
+
+/* 导航样式 */
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    font-weight: bold;
+    width: 128px;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li a {
+    width: 128px;
+    line-height: 45px;
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #3170e6;
+}
+
+/* 二级菜单样式 */
+.navbar ul li ul {
+    position: absolute;
+    display: none;
+    width: 128px;
+    line-height: 45px;
+}
+
+.navbar ul li ul li {
+    background-color: #3F3D56;
+}
+
+/* 悬浮展开二级菜单 */
+.navbar ul li ul li a:hover {
+    color: #dee2eb;
+}
+
+.navbar ul li ul li:hover {
+    background-color: #3170e6;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+
+.nban {
+    width: 100%;
+    height: 490px;
+}
+
+.vsdh {
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+
+.vsd1 .hoverss {
+    border-bottom: 2px solid #458D40;
+}
+
+.vsd1 li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    height: 53px;
+    line-height: 53px;
+}
+
+.vsdh2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.weizhi {
+    float: right;
+    background: url(../images/wz.jpg) left center no-repeat;
+    padding-left: 20px;
+}
+
+.mainc {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.abjs{
+ margin-bottom: 40px;
+}
+.abjs .sabtit {
+    height: 68px;
+    background: url(../images/sabtit.jpg);
+    text-align: center;
+    font-size: 27px;
+    line-height: 30px;
+    width: 690px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.abjs .abtu {
+    float: left;
+}
+.abjs .abtu img {
+    width: 360px;
+    height: 240px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    background: #fff;
+}
+.abjs .abxx {
+    width: 790px;
+    float: right;
+}
+.abjs .sonnt {
+    font-size: 15px;
+    line-height: 27px;
+}
